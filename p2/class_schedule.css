@@ -1,0 +1,67 @@
+h1 {
+    color: #fdf3f3;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 30pt;
+    text-align: center;
+}
+
+body {
+    background-image: url("./back.jpg");
+}
+
+
+/* table {
+    border: 1px solid #800000;
+    font-family: 微軟正黑體;
+    font-size: 12px;
+    width: 800px;
+    border: 1px solid #000;
+    text-align: center;
+	border-collapse: collapse; */
+
+table {
+    border: 4px solid #800000;
+    width: 75%;
+    height: 50%;
+    font-size: 8pt;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table th {
+    border: 1px solid #cea5a5;
+    width: 75px;
+    height: 50px;
+    color: #773030;
+    /* color:字體顏色
+	text-align:字體位置 */
+    text-align: center;
+    font-size: 10pt;
+}
+
+table td {
+    border: 1px solid #cea5a5;
+    width: 75px;
+    height: 50px;
+    color: #555555;
+    text-align: center;
+}
+
+.sexyborder {
+    padding: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 3px;
+}
+
+.datarowodd {
+    background-color: #ffffff;
+}
+
+.dataroweven {
+    background-color: #f0d8d8;
+}
+
+
+/* } */
