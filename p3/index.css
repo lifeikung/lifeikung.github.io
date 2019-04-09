@@ -1,0 +1,62 @@
+ body {
+     background-color: #A4978E;
+ }
+ 
+ div.navbar-nav {
+     align-self: right;
+ }
+ 
+ button.btn-outline-success {
+     color: #be9063;
+     border-color: #be9063;
+ }
+ 
+ button.btn-outline-success:hover {
+     border-color: #A49781;
+     background-color: #be9063;
+ }
+ 
+ li.nav-item {
+     color: #A49781;
+ }
+ 
+ .card {
+     color: #525B56;
+ }
+ 
+ div.card-group {
+     margin: 30px;
+ }
+ 
+ div.container {
+     padding-top: 50px;
+     padding-bottom: 50px;
+     align-items: center;
+ }
+ 
+ .card-header.bg-transparent.text-center {
+     font-size: x-large;
+ }
+ 
+ img.card-img-top {
+     height: 200px;
+     overflow: hidden;
+     object-fit: cover;
+ }
+ 
+ div.words {
+     padding-top: 150px;
+     text-align: center;
+ }
+ 
+ div.words h1 {
+     font-size: 70px;
+     font-family: 'Playfair Display SC', serif;
+     color: azure;
+ }
+ 
+ div.words p {
+     color: rgb(75, 78, 78);
+     font-size: 20px;
+     font-family: 'Playfair Display SC', serif;
+ }
