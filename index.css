@@ -1,0 +1,22 @@
+body {
+    margin-left: 10px;
+}
+
+#title {
+    font-family: monospace;
+    padding-left: 10px;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+#subtitle {
+    font-family: monospace;
+    color: #928e8e;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+p {
+    margin-left: 20px;
+}
