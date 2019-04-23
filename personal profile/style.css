@@ -1,0 +1,402 @@
+    h1 {
+        padding-top: 60px;
+        padding-bottom: 20px;
+        text-align: center;
+        color: rgb(23, 27, 109);
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: rgba(23, 27, 104, 0.406);
+    }
+    
+    .nav-item:hover {
+        border-bottom-style: solid;
+        border-bottom-width: 3px;
+        border-bottom-color: rgb(65, 69, 199);
+    }
+    
+    #Personal {
+        margin-bottom: 100px;
+    }
+    
+    nav.navbar {
+        background: rgba(255, 255, 255, 0.57);
+    }
+    
+    div.card-deck {
+        margin-bottom: 100px;
+        margin-top: 100px;
+    }
+    
+    .card-deck button {
+        border-style: solid;
+        border-width: 3px;
+        border-color: black;
+        background: transparent;
+        color: black;
+        border-radius: 100px;
+    }
+    
+    .card-deck button:hover {
+        border-style: solid;
+        border-width: 3px;
+        border-color: white;
+        background: black;
+        color: white;
+        border-radius: 100px;
+    }
+    
+    .frame {
+        width: auto;
+        height: 300px;
+        /* position: relative; */
+    }
+    
+    .frame.card-img-top {
+        max-height: 100%;
+        max-width: 100%;
+        width: auto;
+        height: auto;
+        position: absolute;
+        overflow: hidden;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    
+    .card-img-overlay {
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    
+    .card-img-overlay button {
+        border-style: solid;
+        border-width: 3px;
+        border-color: rgb(122, 117, 117);
+        background: transparent;
+        color: rgb(122, 117, 117);
+        border-radius: 100px;
+    }
+    
+    .card-img-overlay button:hover {
+        border-style: solid;
+        border-width: 3px;
+        border-color: white;
+        background: black;
+        color: white;
+        border-radius: 100px;
+    }
+    
+    div.Personal {
+        display: block;
+        margin-bottom: 100px;
+    }
+    
+    #selfie {
+        float: left;
+        display: block;
+        margin-right: 5px;
+    }
+    
+    #selfie img {
+        padding: 30px;
+        width: 400px;
+        height: auto;
+    }
+    
+    #introtext {
+        padding-top: 30px;
+        margin-left: 25px;
+        display: block;
+        width: 90%;
+    }
+    
+    #Education h1 {
+        margin-left: 100px;
+        margin-right: 100px;
+        text-align: center;
+    }
+    
+    #Education {
+        display: block;
+        background-color: rgba(223, 223, 223, 0.488);
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 100px;
+    }
+    
+    #ntu {
+        margin-top: 50px;
+        margin-left: 100px;
+        border-left-style: solid;
+        border-left-color: rgb(23, 27, 109);
+        border-left-width: 10px;
+        padding-left: 20px;
+        display: block;
+        width: 80%;
+        margin-bottom: 70px;
+    }
+    
+    #lssh {
+        margin-left: 100px;
+        border-left-style: solid;
+        border-left-color: rgb(23, 27, 109);
+        border-left-width: 10px;
+        padding-left: 20px;
+        display: block;
+        width: 80%;
+    }
+    
+    #school {
+        color: rgb(23, 27, 109);
+        font-size: 20px;
+    }
+    
+    #date {
+        padding-left: 100px;
+        -webkit-font-smoothing: antialiased;
+    }
+    
+    img.modalpic {
+        padding-bottom: 10px;
+        width: 20rem;
+        margin: auto;
+        display: block;
+    }
+    
+    #LanguageBar-1 {
+        float: left;
+        width: 50px;
+        border-style: solid;
+        border-radius: 30px;
+        border-color: rgb(172, 176, 233);
+        display: inline;
+    }
+    
+    #LanguageBar-2 {
+        margin-left: 2px;
+        float: left;
+        width: 50px;
+        border-style: solid;
+        border-radius: 30px;
+        border-color: rgb(84, 84, 211);
+        display: inline;
+    }
+    
+    #LanguageBar-3 {
+        margin-left: 2px;
+        float: left;
+        border-radius: 30px;
+        width: 50px;
+        border-style: solid;
+        border-color: rgb(48, 48, 205);
+        display: inline;
+    }
+    
+    #LanguageBar-4 {
+        margin-left: 2px;
+        float: left;
+        border-radius: 30px;
+        width: 50px;
+        border-style: solid;
+        border-color: rgb(5, 5, 91);
+        display: block;
+    }
+    
+    #LanguageBar-none {
+        margin-left: 2px;
+        float: left;
+        border-radius: 30px;
+        width: 50px;
+        border-style: solid;
+        border-color: rgb(194, 194, 194);
+        display: block;
+    }
+    
+    #Skills {
+        margin: 0;
+        padding: 100px;
+        padding-top: 25px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        background-color: rgba(223, 223, 223, 0.488);
+    }
+    
+    #Language {
+        margin-left: 100px;
+        margin-top: 100px;
+        float: left;
+        border-right-style: solid;
+        border-right-color: rgb(208, 208, 206);
+        border-right-width: 1px;
+        padding-right: 100px;
+        padding-left: 50px;
+        font-size: 20px;
+    }
+    
+    #Language h5 {
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+    
+    #Knowledge {
+        margin-left: 50px;
+        padding-left: 75px;
+        margin-top: 100px;
+        float: left;
+        font-size: 20px;
+        /* display: inline; */
+    }
+    
+    #Knowledge h5 {
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+    
+    #knowledgeBar {
+        display: inline-block;
+        vertical-align: middle;
+        margin-bottom: 20px;
+    }
+    
+    #knowledgeBar-1 {
+        margin-left: 5px;
+        float: left;
+        margin-top: 15px;
+        border-radius: 100px;
+        height: 10px;
+        width: 10px;
+        border-style: solid;
+        background-color: rgb(255, 251, 147);
+        border-color: rgb(255, 251, 147);
+    }
+    
+    #knowledgeBar-2 {
+        margin-left: 10px;
+        float: left;
+        margin-top: 10px;
+        border-radius: 100px;
+        height: 20px;
+        width: 20px;
+        border-style: solid;
+        background-color: rgb(255, 203, 114);
+        border-color: rgb(255, 203, 114);
+    }
+    
+    #knowledgeBar-3 {
+        margin-left: 10px;
+        float: left;
+        margin-top: 5px;
+        border-radius: 100px;
+        height: 30px;
+        width: 30px;
+        border-style: solid;
+        background-color: rgb(253, 169, 80);
+        border-color: rgb(253, 169, 80);
+    }
+    
+    #knowledgeBar-4 {
+        margin-left: 10px;
+        float: left;
+        border-radius: 100px;
+        height: 40px;
+        width: 40px;
+        border-style: solid;
+        background-color: rgb(253, 97, 80);
+        border-color: rgb(253, 97, 80);
+    }
+    
+    #knowledgeBar-none4 {
+        margin-left: 10px;
+        float: left;
+        border-radius: 100px;
+        height: 40px;
+        width: 40px;
+        border-style: solid;
+        background-color: rgb(208, 208, 206);
+        border-color: rgb(208, 208, 206);
+    }
+    
+    #knowledgeBar-none3 {
+        margin-left: 10px;
+        float: left;
+        margin-top: 5px;
+        border-radius: 100px;
+        height: 30px;
+        width: 30px;
+        border-style: solid;
+        background-color: rgb(208, 208, 206);
+        border-color: rgb(208, 208, 206);
+    }
+    
+    #knowledgeBar-none2 {
+        margin-left: 10px;
+        float: left;
+        margin-top: 10px;
+        border-radius: 100px;
+        height: 20px;
+        width: 20px;
+        border-style: solid;
+        background-color: rgb(208, 208, 206);
+        border-color: rgb(208, 208, 206);
+    }
+    
+    #Knowledge-1 {
+        margin-left: 900px;
+        margin-top: 175px;
+        font-size: 20px;
+        /* display: inline; */
+    }
+    
+    #Contact-me {
+        padding: 100px;
+        background-color: rgb(232, 217, 136);
+        height: 800px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    
+    #information {
+        float: left;
+        margin-top: 150px;
+        margin-left: 200px;
+    }
+    
+    #information i {
+        margin-right: 4px;
+    }
+    
+    #information p {
+        font-size: 30px;
+        line-height: 50px;
+        color: rgb(17, 37, 58);
+    }
+    
+    #contact {
+        padding-top: 100px;
+        margin-left: 500px;
+        text-align: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 30px;
+    }
+    
+    #contact img {
+        width: 50%;
+        height: 50%;
+    }
+    
+    #contact img:hover {
+        width: 50%;
+        height: 50%;
+        border-radius: 200px;
+        box-shadow: 4px 4px 3px rgba(20%, 20%, 40%, 0.5);
+    }
+    
+    footer {
+        margin-top: 125px;
+        padding-top: 25px;
+        text-align: center;
+        border-top-style: solid;
+        border-top-color: rgb(208, 208, 206);
+        border-top-width: 1px;
+    }
