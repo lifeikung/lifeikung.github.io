@@ -1,0 +1,97 @@
+#hi {
+    background-color: #cadbae;
+    padding: 50px;
+    padding-right: 100px;
+}
+
+#title {
+    margin-top: 15pt;
+    margin-bottom: 30pt;
+    color: #D65A50;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 45pt;
+}
+
+.jumbotron {
+    background-color: #cadbae;
+    height: 500pt;
+    width: 100%;
+    border-radius: .0rem;
+    border: solid #7E1331 10px;
+    margin: 25px;
+}
+
+.btn {
+    padding-left: 0pt;
+    margin-top: 30pt;
+    width: 150pt;
+    height: 40pt;
+    font-family: fantasy;
+    font-size: 18pt;
+    border-radius: .1rem;
+    float: left;
+    color: white;
+    background-color: #F29F8F;
+    border-color: transparent;
+    box-shadow: 0 0.5px 1px #D65A50;
+}
+
+.btn:hover {
+    margin-top: 30pt;
+    width: 150pt;
+    height: 40pt;
+    border-radius: .1rem;
+    background-color: #F29F8F;
+    border-color: transparent;
+    box-shadow: 0 3px 8px #D65A50;
+    /* css的動畫 */
+    transform: translate3d(0, -1px, 0);
+    /* 3D轉換（x軸,y軸） */
+    transition-delay: 0s;
+    /* 在處碰到後的反應時間 */
+    transition-duration: 0.1s;
+    /* 動畫時間 */
+    transition-property: all;
+    /*  */
+    transition-timing-function: linear;
+}
+
+.btn:active {
+    background-color: #7E1331;
+    color: white;
+    border-color: transparent;
+    box-shadow: 0 3px 8px #D65A50;
+}
+
+#homepage {
+    font-size: 14pt;
+}
+
+.form-group {
+    margin-left: 200px;
+    font-size: 12pt;
+    color: #7E1331;
+    font-family: 'Raleway', sans-serif;
+}
+
+#haha {
+    margin-left: 100px;
+}
+
+.form-control {
+    display: block;
+    width: 50%;
+    height: calc(1.5em + .75rem + 2px);
+    margin-left: 30px;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+    color: #fffffffa;
+    background-color: #f58d95;
+    background-clip: padding-box;
+    border: 1px solid #ffffff;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}

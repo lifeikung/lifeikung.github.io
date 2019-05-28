@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+#hi {
+    background-color: #cadbae;
+    padding: 50px;
+    padding-right: 100px;
+}
+
+.jumbotron {
+    background-color: #cadbae;
+    height: 500pt;
+    width: 100%;
+    border-radius: .0rem;
+    border: solid #7E1331 10px;
+    margin: 25px;
+}
+
+#title {
+    margin-top: 90pt;
+    color: #D65A50;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 50pt;
+}
+
+#icon {
+    margin-left: 10pt;
+    width: 20%;
+    height: auto;
+    color: white;
+}
+
+#query {
+    margin-top: 30pt;
+    width: 150pt;
+    height: 40pt;
+    font-family: fantasy;
+    font-size: 18pt;
+    border-radius: .1rem;
+    float: right;
+    background-color: #F29F8F;
+    border-color: transparent;
+    box-shadow: 0 0.5px 1px #D65A50;
+}
+
+#query:hover {
+    margin-top: 30pt;
+    width: 150pt;
+    height: 40pt;
+    border-radius: .1rem;
+    float: right;
+    background-color: #F29F8F;
+    border-color: transparent;
+    box-shadow: 0 3px 8px #D65A50;
+    /* css的動畫 */
+    transform: translate3d(0, -1px, 0);
+    /* 3D轉換（x軸,y軸） */
+    transition-delay: 0s;
+    /* 在處碰到後的反應時間 */
+    transition-duration: 0.1s;
+    /* 動畫時間 */
+    transition-property: all;
+    /*  */
+    transition-timing-function: linear;
+    /* 動畫速度：慢慢變快 */
+}
+
+#add {
+    margin-top: 30pt;
+    width: 150pt;
+    height: 40pt;
+    font-family: fantasy;
+    font-size: 18pt;
+    border-radius: .1rem;
+    float: left;
+    background-color: #F29F8F;
+    border-color: transparent;
+    box-shadow: 0 0.5px 1px #D65A50;
+}
+
+#add:hover {
+    margin-top: 30pt;
+    width: 150pt;
+    height: 40pt;
+    border-radius: .1rem;
+    float: left;
+    background-color: #F29F8F;
+    border-color: transparent;
+    box-shadow: 0 3px 8px #D65A50;
+    /* css的動畫 */
+    transform: translate3d(0, -1px, 0);
+    /* 3D轉換（x軸,y軸） */
+    transition-delay: 0s;
+    /* 在處碰到後的反應時間 */
+    transition-duration: 0.1s;
+    /* 動畫時間 */
+    transition-property: all;
+    /*  */
+    transition-timing-function: linear;
+}
+
+#down {
+    margin-top: 50px;
+}
+
+footer {
+    margin-top: 50px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #9E9E9E;
+    padding-top: 25px;
+    color: #908f8f;
+}
+
+body {
+    background-color: rgba(245, 200, 191, 0.913);
+}
+
+#product {
+    padding-top: 80px;
+}
+
+.name {
+    font-size: 14px;
+    font-family: "Microsoft Yahei", "Hiragino Sans GB", sans-serif;
+    color: #212121;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.price {
+    color: #ff6709;
+    font-family: "Microsoft Yahei", "Hiragino Sans GB", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.image {
+    width: 160px;
+    height: 160px;
+    margin-top: 0px;
+    margin-bottom: 22px;
+    margin-left: 37px;
+    margin-right: 37px;
+}
+
+.item {
+    height: 300px;
+    position: relative;
+    border: none;
+    background: #fff;
+    text-align: center;
+    background-clip: border-box;
+    background-image: none;
+    background-origin: padding-box;
+    margin-bottom: 20px;
+    margin-left: 14px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-top: 34px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+footer {
+    margin-top: 50px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #9E9E9E;
+    padding-top: 25px;
+    color: #908f8f;
+}
+
+.name {
+    font-size: 14px;
+    font-family: "Microsoft Yahei", "Hiragino Sans GB", sans-serif;
+    color: #212121;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.price {
+    color: #ff6709;
+    font-family: "Microsoft Yahei", "Hiragino Sans GB", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.image {
+    width: 160px;
+    height: 160px;
+    margin-top: 0px;
+    margin-bottom: 22px;
+    margin-left: 37px;
+    margin-right: 37px;
+}
+
+.item {
+    height: 300px;
+    position: relative;
+    border: none;
+    background: #fff;
+    text-align: center;
+    background-clip: border-box;
+    background-image: none;
+    background-origin: padding-box;
+    margin-bottom: 20px;
+    margin-left: 14px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-top: 34px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.item:hover {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+    transform: translate3d(-5px, -5px, 0);
+    transition-delay: 0s;
+    transition-duration: 0.2s;
+    transition-property: all;
+    transition-timing-function: linear;
+}
+
+#product-list {
+    margin-left: 50px;
+}
+
+.page-item.active .page-link:hover {
+    /* z-index: 1; */
+    color: #fff;
+    background-color: #7e1231;
+    border: 1px solid #f5dad7;
+}
+
+.page-item.active .page-link {
+    /* z-index: 1; */
+    color: #7e1231;
+    background-color: #fff;
+    border: 1px solid #f5dad7;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #7e1231;
+    background-color: #fff;
+    border: 1px solid #f5dad7;
+}
+
+.page-link:hover {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #fff;
+    background-color: #7e1231;
+    border: 1px solid #f5dad7;
+}
