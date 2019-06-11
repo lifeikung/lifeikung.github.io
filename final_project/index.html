@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To-Do-list</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- 引入我們自己寫的 CSS -->
+    <link rel="stylesheet" href="./css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/dfd42d806e.js"></script>
+</head>
+
+<body>
+    <div class='container'>
+
+        <div>
+            <h1>Creat your To-Do-list!</h1>
+            <div><img src="./img/03.png" id='plus'></i>
+            </div>
+        </div>
+        <div class='todolist' id='todolist0'>
+            <h1 id='todotitle'>Add New Subject</h1>
+            <input type="text" placeholder="Change your subject" id='change'>
+            <input type="text" placeholder="Add New Todo" id='todos'>
+
+            <ul id='list'>
+                <li class="item"><span class='trash'><i class="fas fa-trash-alt"></i></span>洗碗</li>
+                <li class="item"><span class='trash'><i class="fas fa-trash-alt"></i></span>洗衣服</li>
+                <li class="item"><span class='trash'><i class="fas fa-trash-alt"></i></span>掃地</li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Delete this record?</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <img src="./img/04.jpg" alt="">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal" id='Back'>Back</button>
+                    <button type="button" class="btn btn-primary" id='sure'>Sure</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="text-center">Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"
+                title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
+</body>
+
+</html>
